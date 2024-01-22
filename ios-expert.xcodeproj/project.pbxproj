@@ -23,6 +23,7 @@
 		FE0F5FB82B5E44EE00B35BB0 /* FavoriteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0F5FB72B5E44EE00B35BB0 /* FavoriteRouter.swift */; };
 		FE0F5FBA2B5E450400B35BB0 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0F5FB92B5E450400B35BB0 /* FavoriteView.swift */; };
 		FE0F5FBC2B5E451400B35BB0 /* FavoritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0F5FBB2B5E451300B35BB0 /* FavoritePresenter.swift */; };
+		FE0F5FC22B5E4A3B00B35BB0 /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = FE0F5FC12B5E4A3B00B35BB0 /* Game */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE0F5FC22B5E4A3B00B35BB0 /* Game in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +287,7 @@
 			);
 			name = "ios-expert";
 			packageProductDependencies = (
+				FE0F5FC12B5E4A3B00B35BB0 /* Game */,
 			);
 			productName = "ios-expert";
 			productReference = FE0F5F6E2B5E3B7E00B35BB0 /* ios-expert.app */;
@@ -729,6 +732,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE0F5FC12B5E4A3B00B35BB0 /* Game */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Game;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FE0F5F662B5E3B7E00B35BB0 /* Project object */;
 }
