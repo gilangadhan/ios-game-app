@@ -64,6 +64,7 @@
 		FE0F5FB92B5E450400B35BB0 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		FE0F5FBB2B5E451300B35BB0 /* FavoritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePresenter.swift; sourceTree = "<group>"; };
 		FE0F5FC62B5E4C0F00B35BB0 /* Game */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Game; path = Module/Game; sourceTree = "<group>"; };
+		FE0F5FCD2B5E4E3C00B35BB0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +267,7 @@
 		FE0F5FBD2B5E45D700B35BB0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FE0F5FCD2B5E4E3C00B35BB0 /* Accelerate.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -361,6 +363,8 @@
 				Base,
 			);
 			mainGroup = FE0F5F652B5E3B7E00B35BB0;
+			packageReferences = (
+			);
 			productRefGroup = FE0F5F6F2B5E3B7E00B35BB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
