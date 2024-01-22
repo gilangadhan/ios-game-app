@@ -18,11 +18,7 @@ struct HomeView: View {
             Spacer()
             if vm.games.isEmpty {
                 VStack{
-                    Image("error-image")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 300)
-                    Text("No data")
+                    ProgressView()
                 }
             } else {
                 List{

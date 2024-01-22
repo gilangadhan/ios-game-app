@@ -24,6 +24,7 @@
 		FE0F5FBA2B5E450400B35BB0 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0F5FB92B5E450400B35BB0 /* FavoriteView.swift */; };
 		FE0F5FBC2B5E451400B35BB0 /* FavoritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0F5FBB2B5E451300B35BB0 /* FavoritePresenter.swift */; };
 		FE0F5FD12B5E50D800B35BB0 /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = FE0F5FD02B5E50D800B35BB0 /* Game */; };
+		FE58F7222B5E8F6C00D151E2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE58F7212B5E8F6C00D151E2 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		FE0F5FBB2B5E451300B35BB0 /* FavoritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePresenter.swift; sourceTree = "<group>"; };
 		FE0F5FCD2B5E4E3C00B35BB0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		FE0F5FCF2B5E50BF00B35BB0 /* Game */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Game; path = Module/Game; sourceTree = "<group>"; };
+		FE58F7212B5E8F6C00D151E2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 		FE0F5F9B2B5E3CD700B35BB0 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				FE58F7202B5E8F6300D151E2 /* Profile */,
 				FE0F5FB32B5E44CF00B35BB0 /* Favorite */,
 				FE0F5FAC2B5E438400B35BB0 /* Detail */,
 				FE0F5F9C2B5E3D4400B35BB0 /* Home */,
@@ -270,6 +273,14 @@
 				FE0F5FCD2B5E4E3C00B35BB0 /* Accelerate.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE58F7202B5E8F6300D151E2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FE58F7212B5E8F6C00D151E2 /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,6 +422,7 @@
 				FE0F5FB22B5E44BE00B35BB0 /* DetailView.swift in Sources */,
 				FE0F5FA72B5E427F00B35BB0 /* HomeRouter.swift in Sources */,
 				FE0F5FAB2B5E42A000B35BB0 /* GameRow.swift in Sources */,
+				FE58F7222B5E8F6C00D151E2 /* ProfileView.swift in Sources */,
 				FE0F5F742B5E3B7E00B35BB0 /* ContentView.swift in Sources */,
 				FE0F5FB82B5E44EE00B35BB0 /* FavoriteRouter.swift in Sources */,
 				FE0F5FA92B5E429B00B35BB0 /* HomeView.swift in Sources */,
