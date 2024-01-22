@@ -6,21 +6,32 @@
 //
 
 import SwiftUI
+import Game
 
 struct ContentView: View {
+    @EnvironmentObject var homePresenter: HomePresenter
+    @EnvironmentObject var favoritePresenter: FavoritePresenter
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            TabView {
+                HomeView(vm: homePresenter)
+                    .tabItem {
+                        Image(systemName: "house")
+                    }
+                FavoriteView()
+                    .tabItem {
+                        Image(systemName: "heart.fill")
+                    }
+                
+            }
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(HomePresenter(homeUseCase: GameInjection.init().provideHome()))
+            .environmentObject(FavoritePresenter(favoriteUseCase: GameInjection.init().provideFavorite()))
     }
 }
