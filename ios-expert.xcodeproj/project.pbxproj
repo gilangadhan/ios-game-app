@@ -23,7 +23,7 @@
 		FE0F5FB82B5E44EE00B35BB0 /* FavoriteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0F5FB72B5E44EE00B35BB0 /* FavoriteRouter.swift */; };
 		FE0F5FBA2B5E450400B35BB0 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0F5FB92B5E450400B35BB0 /* FavoriteView.swift */; };
 		FE0F5FBC2B5E451400B35BB0 /* FavoritePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0F5FBB2B5E451300B35BB0 /* FavoritePresenter.swift */; };
-		FE0F5FC22B5E4A3B00B35BB0 /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = FE0F5FC12B5E4A3B00B35BB0 /* Game */; };
+		FE0F5FC52B5E4AE900B35BB0 /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = FE0F5FC42B5E4AE900B35BB0 /* Game */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +63,7 @@
 		FE0F5FB72B5E44EE00B35BB0 /* FavoriteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRouter.swift; sourceTree = "<group>"; };
 		FE0F5FB92B5E450400B35BB0 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		FE0F5FBB2B5E451300B35BB0 /* FavoritePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePresenter.swift; sourceTree = "<group>"; };
-		FE0F5FC02B5E499700B35BB0 /* Game */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Game; path = Module/Game; sourceTree = "<group>"; };
+		FE0F5FC32B5E4ADA00B35BB0 /* Game */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Game; path = Module/Game; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE0F5FC22B5E4A3B00B35BB0 /* Game in Frameworks */,
+				FE0F5FC52B5E4AE900B35BB0 /* Game in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +199,7 @@
 		FE0F5FA12B5E3FB600B35BB0 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				FE0F5FC02B5E499700B35BB0 /* Game */,
+				FE0F5FC32B5E4ADA00B35BB0 /* Game */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -287,7 +287,7 @@
 			);
 			name = "ios-expert";
 			packageProductDependencies = (
-				FE0F5FC12B5E4A3B00B35BB0 /* Game */,
+				FE0F5FC42B5E4AE900B35BB0 /* Game */,
 			);
 			productName = "ios-expert";
 			productReference = FE0F5F6E2B5E3B7E00B35BB0 /* ios-expert.app */;
@@ -734,7 +734,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FE0F5FC12B5E4A3B00B35BB0 /* Game */ = {
+		FE0F5FC42B5E4AE900B35BB0 /* Game */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Game;
 		};
